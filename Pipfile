@@ -12,6 +12,8 @@ wandb = "*"
 pandas = "*"
 seaborn = "*"
 matplotlib = "*"
+statsmodels = "*"
+scikit-learn = "*"
 
 [dev-packages]
 
