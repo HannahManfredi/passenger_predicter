@@ -5,7 +5,10 @@ from sklearn.linear_model import LinearRegression
 import numpy as np
 
 
-def createArimaModel(data, test):
+def createArimaModel(data, test) -> None:
+    """
+    Create an ARIMA model
+    """
     model = ARIMA(data, order=(5, 1, 0))
 
     model_fit = model.fit()
@@ -15,7 +18,10 @@ def createArimaModel(data, test):
     print("Mean Squared Error:", mse)
 
 
-def createLinearRegressionModel(data):
+def createLinearRegressionModel(data) -> LinearRegression:
+    """
+    Create a Linear Regression model
+    """
     # Create a LinearRegression model
     model = LinearRegression()
 
