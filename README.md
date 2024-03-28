@@ -1,20 +1,13 @@
-# passenger_predicter
+# human speech emotion classifier
 
-Time Series Forecasting for US Air Travel Using an LSTM-Based Model
+Using the RAVDESS dataset, we intend to fine-tune an existing (likely Wav2Vec) model to classify audio into 7 “core” categories, 'angry', 'calm', 'disgust', 'fearful', 'happy', 'neutral', 'sad', and 'surprised'.
 
 # Things to Explore
 
-- Sliding vs. Overlapping Window
-  - If using Overlapping approach, how do you set overlap param? We defaulted to 1
-
 # Objectives
 
-- 3/23 Create a benchmark:
-  -Exploring different options including: -[sklearn.model_selection.TimeSeriesSplit (create train/test datasets)](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html)
-  - [Time-related feature engineering](https://scikit-learn.org/stable/auto_examples/applications/plot_cyclical_feature_engineering.html)
-  - [Lagged features for time series forecasting](https://scikit-learn.org/stable/auto_examples/applications/plot_time_series_lagged_features.html)
-  - [Linear regression for time series](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
- 
+- Have learned about this problem so that our next work sesh is dope/productive
+  
 # Resources
 
 - [Wav2Vec2 Model on Hugging Face](https://huggingface.co/docs/transformers/en/model_doc/wav2vec2)
@@ -27,3 +20,17 @@ Time Series Forecasting for US Air Travel Using an LSTM-Based Model
 - [Wav2vec](https://ai.meta.com/research/impact/wav2vec/)
 - [Models - Hugging Face](https://huggingface.co/models?pipeline_tag=audio-classification&sort=downloads&search=emotion)
 - [Toronto emotional speech set (TESS)](https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess)
+- [RAVDESS Emotional speech audio](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)
+- [Speech Recognition with Wav2Vec2 — Torchaudio 2.2.0 documentation](https://pytorch.org/audio/stable/tutorials/speech_recognition_pipeline_tutorial.html)
+
+# Plan
+
+- Everyone is going to read and absorb all of the resources and become enlightened (~1.5 hrs of prep)
+  - Get a high level understanding of how the Wav2Vec works
+  - Scan the dataset and understand what we're working with
+  - [Audio-Classification-on-Keyword-Spotting.ipynb - Colaboratory](https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/audio_classification.ipynb)
+  - Review [Audio Classification Guide](https://huggingface.co/docs/transformers/en/tasks/audio_classification)
+  - If you're feeling spicy and have more time, complete [Speech Recognition with Wav2Vec2 — Torchaudio 2.2.0 documentation](https://pytorch.org/audio/stable/tutorials/speech_recognition_pipeline_tutorial.html)
+  - This is overkill: [Google Colab](https://colab.research.google.com/github/m3hrdadfi/soxan/blob/main/notebooks/Emotion_recognition_in_Greek_speech_using_Wav2Vec2.ipynb)
+- We're tentatively meeting on Saturday afternoon, 3/30
+- 
