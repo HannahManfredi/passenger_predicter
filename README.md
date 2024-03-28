@@ -17,7 +17,8 @@ Using the RAVDESS dataset, we intend to fine-tune an existing (likely Wav2Vec) m
 
 - [Wav2Vec](https://ai.meta.com/research/impact/wav2vec/#how-it-works)
 - [Wav2Vec2 Model on Hugging Face](https://huggingface.co/docs/transformers/en/model_doc/wav2vec2)
-  - [facebook/wav2vec2-base-960h · Hugging Face](https://huggingface.co/facebook/wav2vec2-base-960h)
+  - [facebook/wav2vec2-base · Hugging Face](https://huggingface.co/facebook/wav2vec2-base)
+    - Do not use: [facebook/wav2vec2-base-960h · Hugging Face](https://huggingface.co/facebook/wav2vec2-base-960h) even though it looks the same but better [it's actually already fine-tuned](https://huggingface.co/facebook/wav2vec2-base-960h/discussions/3#62e7a0b7ae8b00c198ba1dbe)
 - [ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition · Hugging Face](https://huggingface.co/ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition)
 
 ### Dataset
