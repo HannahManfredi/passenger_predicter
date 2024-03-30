@@ -18,6 +18,9 @@ datasets = "*"
 librosa = "*"
 soundfile = "*"
 typing = "*"
+transformers = "*"
+evaluate = "*"
+accelerate = "*"
 
 [dev-packages]
 
