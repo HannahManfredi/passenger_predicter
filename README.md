@@ -1,4 +1,4 @@
-# human speech emotion classifier
+# Human Speech Emotion Classifier
 
 Using the RAVDESS dataset, we intend to fine-tune an existing (likely Wav2Vec) model to classify audio into 7 “core” categories, 'angry', 'calm', 'disgust', 'fearful', 'happy', 'neutral', 'sad', and 'surprised'.
 
