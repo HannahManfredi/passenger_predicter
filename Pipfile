@@ -21,6 +21,8 @@ typing = "*"
 transformers = "*"
 evaluate = "*"
 accelerate = "*"
+plotly = "*"
+nbformat = "*"
 
 [dev-packages]
 

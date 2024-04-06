@@ -50,3 +50,7 @@ Using the RAVDESS dataset, we intend to fine-tune an existing (likely Wav2Vec) m
   - If you're feeling spicy and have more time, complete [Speech Recognition with Wav2Vec2 — Torchaudio 2.2.0 documentation](https://pytorch.org/audio/stable/tutorials/speech_recognition_pipeline_tutorial.html)
   - This is overkill: [Google Colab](https://colab.research.google.com/github/m3hrdadfi/soxan/blob/main/notebooks/Emotion_recognition_in_Greek_speech_using_Wav2Vec2.ipynb)
 - We're tentatively meeting on Saturday afternoon, 3/30
+
+## $750K IDEAS:
+
+- Highlight Reels — extract 20 mins highest valence moments from 2 hrs of vid content
